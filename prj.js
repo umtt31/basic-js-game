@@ -20,8 +20,9 @@ function updateBallPosition() {
   x += xV;
   y += yV;
 
-  ball.style.left = x + 'px';
+  ball.style.left = x + 'px';  
   ball.style.top = y + 'px';
+  // deneme
 
   // Detect collision with box
   let ballLeft = x;
