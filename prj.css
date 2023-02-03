@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    width: 600px;
+    height: 600px;
+    background-color:greenyellow;
+    border: 3px solid black;
+    
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background:black;
+    border-radius:11px;
+    position: absolute;
+}
+.plate{
+    width:70px;
+    height: 10px;
+    border: 3px solid black;
+    background: gray;
+}
+.plate{
+    position: absolute;
+}
+.table hr{
+    border:2px solid black;
+    margin:70% 0;
+}
+.score{
+    margin:0 650px;
+    font-size:100px;
+}
+.table button{
+    margin: 0 650px;
+
+}
