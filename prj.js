@@ -9,8 +9,6 @@ let dy = 4;
 const table = document.querySelector('.table');
 const plate = document.querySelector('.plate');
 const ball = document.querySelector('.ball');
-let point = document.getElementsByClassName('.score');
-
 
 let xV = 6;
 let yV = 6;
@@ -37,8 +35,8 @@ function updateBallPosition() {
   let plateBottom = plateTop + plate.offsetHeight;
 
   if (ballRight > plateLeft && ballLeft < plateRight && ballBottom > plateTop && ballTop < plateBottom) {
-    yV = -yV;
-    
+   yV = -yV;
+   document.querySelector(".score").innerHTML = parseInt(document.querySelector(".score").innerHTML) + 1;
   }
 
   document.addEventListener('mousemove',function(event){
